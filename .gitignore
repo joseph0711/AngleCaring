@@ -1,0 +1,83 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+/nodejs-backend
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+*.log
+*.apk
+*.aab
+*.keystore
+*.jks
+*.class
+*.dex
+*.classpath
+*.project
+*.settings/
+*.swp
+*.swo
+*~
+.navigation/
+captures/
+output.json
+secrets.properties
+app/release/
+app/debug/
+
+# Database and API configuration files
+nodejs-backend/.env
+nodejs-backend/*.env
+nodejs-backend/auth/*.env
+nodejs-backend/.env.local
+nodejs-backend/.env.development
+nodejs-backend/.env.production
+
+# Android Studio specific
+.idea/
+*.iws
+*.ipr
+.gradle/
+build/
+.externalNativeBuild/
+.cxx/
+
+# Firebase
+google-services.json
+app/google-services.json
+
+# Logs
+logs/
+error_log
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# System files
+Thumbs.db
+
+# Local development
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Debug files
+*.debug
+debug/
+debug.log
+
+# Backup files
+*.backup
+backup/
