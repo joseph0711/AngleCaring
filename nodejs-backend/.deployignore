@@ -1,0 +1,54 @@
+# Azure 部署時忽略的檔案和目錄
+
+# Dependencies (Azure 會自動執行 npm install)
+node_modules/
+
+# Environment variables (使用 Azure Application Settings)
+.env
+.env.local
+.env.*.local
+
+# Logs
+server.log
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+iisnode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Git (不需要在 Azure 上)
+.git/
+.gitignore
+.gitattributes
+
+# Azure
+.azure/
+
+# Firebase service account (應使用 Azure Key Vault)
+*-firebase-adminsdk-*.json
+serviceAccountKey.json
+
+# Deployment files
+deploy.zip
+deploy.sh
+DEPLOY.md
+
+# Test files
+test/
+tests/
+*.test.js
+*.spec.js
+
+# Documentation (不影響運行)
+README.md
+docs/

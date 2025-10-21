@@ -7,7 +7,6 @@
 /.idea/workspace.xml
 /.idea/navEditor.xml
 /.idea/assetWizardSettings.xml
-/nodejs-backend
 .vscode/
 .DS_Store
 /build
@@ -35,13 +34,19 @@ secrets.properties
 app/release/
 app/debug/
 
-# Database and API configuration files
+# Node.js backend specific
+nodejs-backend/node_modules/
 nodejs-backend/.env
 nodejs-backend/*.env
 nodejs-backend/auth/*.env
 nodejs-backend/.env.local
 nodejs-backend/.env.development
 nodejs-backend/.env.production
+nodejs-backend/server.log
+nodejs-backend/*.log
+nodejs-backend/deploy.zip
+nodejs-backend/.DS_Store
+nodejs-backend/iisnode/
 
 # Android Studio specific
 .idea/
